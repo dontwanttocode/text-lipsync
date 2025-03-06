@@ -26,9 +26,9 @@ tts = gTTS(
 )
 
 # Save audio as MP3 and convert to WAV
-tts.save("output.mp3")
-audio = AudioSegment.from_mp3("output.mp3")
-audio.export("output.wav", format="wav")
+tts.save("Wav2Lip/output.mp3")
+audio = AudioSegment.from_mp3("Wav2Lip/output.mp3")
+audio.export("Wav2Lip/output.wav", format="wav")
 
 print("✅ Audio generated: output.wav")
 
